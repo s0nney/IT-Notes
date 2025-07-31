@@ -1,1 +1,1 @@
-# Notes of different areas of interests.
+# My braindump of IT-related notes!
