@@ -15,7 +15,9 @@ VMs:
 
 
 Update, download the base packages for our cluster setup, then reboot.
-- sudo apt update && sudo apt upgrade -y && sudo apt install docker.io docker-compose curl gnupg containerd wget apt-transport-https ca-certificates qemu-guest-agent && sudo reboot
+```
+sudo apt update && sudo apt upgrade -y && sudo apt install docker.io docker-compose curl gnupg containerd wget apt-transport-https ca-certificates qemu-guest-agent && sudo reboot
+```
 
 
 ## Installing kubeadm, kubectl, and kubelet
