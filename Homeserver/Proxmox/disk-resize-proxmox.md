@@ -6,7 +6,7 @@ Fixing issues with proper disk size allocation in Proxmox.
  
 2. sudo lvdisplay
  
-3. sudo run lvextend -l +100%FREE /dev/mapper/ubuntu--vg-ubuntu--lv
+3. sudo lvextend -l +100%FREE /dev/mapper/ubuntu--vg-ubuntu--lv
 
 4. sudo resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv
 
