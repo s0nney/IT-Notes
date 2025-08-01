@@ -20,7 +20,7 @@ Update, download the base packages for our cluster setup, then reboot.
 
 ## Installing kubeadm, kubectl, and kubelet
 
-We're going to be using Ubunut's native package management because snap is a mess.
+We're going to be using Ubuntu's native package management because snap is a mess.
 
 ```
 sudo mkdir -p -m 755 /etc/apt/keyrings
