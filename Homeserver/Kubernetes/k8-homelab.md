@@ -35,7 +35,7 @@ echo 'deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.
 
 sudo chmod 644 /etc/apt/sources.list.d/kubernetes.list
 
-sudo apt update && sudo apt install kubectl kubeadm kubelet
+sudo apt update && sudo apt install kubectl kubeadm kubelet -y
 ```
 
 Edit in order: 
